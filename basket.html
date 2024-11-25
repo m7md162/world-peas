@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopping cart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/basket.css">
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="main.html">world peas</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="products.html">shop</a></li>
+                <li><a href="#">newsstand</a></li>
+                <li><a href="#">who we are</a></li>
+                <li><a href="#">my profile</a></li>
+                <li><a href="#" class="btn"> basket <span>(3)</span></a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class='heading'>
+        <h1>basket</h1>
+       <span>3 items</span>
+    </section>
+
+    <section class="basket">
+
+        <div class="vegetables">
+            <div class="tomato background">
+                <img src="images/basket/Tomato-1.webp" alt="tomato">
+                    <div class="data">
+                <h2>heirloom tomato</h2>
+                <p class="price-weight"><span>$5.99/ib</span></p>
+                <input type="text" value="1 ib" class="weight">
+                    </div>
+                <p class="price"><span>$5.99</span></p>
+            </div>
+    
+            <div class="ginger background">
+                <img src="images/basket/ginger-1.webp" alt="ginger">
+                    <div class="data">
+                <h2>organic ginger</h2>
+                <p class="price-weight"><span>$12.99/ib</span></p>
+                <input type="text" value="0.5 ib"  class="weight">
+                    </div>
+                <p class="price"><span>$6.50</span></p>
+            </div>
+    
+            <div class="onion background">
+                <img src="images/basket/onion.webp" alt="onion">
+                    <div class="data">
+                <h2>sweet onion</h2>
+                <p class="price-weight"><span>$2.99/ib</span></p>
+                <input type="text" value="5 ib"  class="weight">
+                    </div>
+                <p class="price"><span>$14.95</span></p>
+            </div>
+        </div>
+
+        <div class="order">
+            <h2>order summary</h2>
+            <p>subtotal <span class="final-price">$27.44</span></p>
+            <p>shipping <span class="final-price">$3.99</span></p>
+            <p>tax <span class="final-price">$2.00</span></p>
+            <p class="total">total <span class="total final-price">$33.43</span></p>
+            <a href="#" class="btn">continue to payment</a>
+        </div>
+        
+    </section>
+</body>
+</html>
